@@ -1,0 +1,6 @@
+a, b = map(int, input().split())
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Product:", a * b)
+print("Quotient:", a // b if b != 0 else "Undefined")
+print("Remainder:", a % b if b != 0 else "Undefined")
